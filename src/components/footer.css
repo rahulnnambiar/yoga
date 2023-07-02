@@ -1,0 +1,29 @@
+.Footer{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.Footer-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Footer-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:50px;
+}
+.Footer-3{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: center;
+    color: lightgray;
+}
+.Footer-3>*{
+    padding:10px;
+}
